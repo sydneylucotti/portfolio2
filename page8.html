@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Kaisei+Opti&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Kaisei+Opti&family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+<title>Lucotti Design</title> 
+<link rel="stylesheet" href="style.css">
+</head>
+<body>  
+<header>
+<div class="logo"> <img src="Images/logocopy.png" alt="small off white SL logo in top left corner"></div>
+<nav>
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn"><img src="Images/dropdownicon.png" alt=""></button>
+  <div id="myDropdown" class="dropdowncontent">
+     <a href="index.html#about">About</a>
+    <a href="index.html#protfolio"> Portfolio</a>
+    <a href="index.html#contact">Contact</a>
+    <a href="Images/Lucotti_Resume.pdf" target="_blank">Resume</a>
+  </div>
+</nav>
+</header>
+<div class="textblock">
+<h2>Lithographs<br> 8x11 Paper</h2>
+<p>I created three lithography prints to showcase my illustration skills and artistic style.
+Lithography is a printmaking technique where an image is drawn with a greasy medium on a flat stone or metal plate.
+ The surface is chemically treated so ink sticks only to the drawing, and then paper is pressed onto it to create multiple prints. This process requires precision and allows for experimentation with textures, 
+ lines, and shading. Each print reflects careful attention to detail and composition. After printing, the pieces are finished by drying, trimming, and preparing them for display. Through this project, I combined traditional 
+ printmaking techniques with my own style to create visually appealing and polished works. </p>
+</div>
+<div class="hero1">  
+<img src="Images/lithographs.png" alt="3 lithographs featuring a tiger, a wowmen in a bathtub, and a cat with a fish. The fist 2 prints are black and white with intricate details and textures the last inked in blue">
+</div>
+<div class="gallery1">
+<div class="picture"><img src="Images/tigers.png" alt="a close up of the black and white tiger lithograph, dislaying 2 tigers dancing/circling around a background of flowers "></div>
+<div class="picture"><img src="Images/tub.png" alt="a close up of the black and white women in the bathtub lithograph, displaying a women covering her face sorounded by a haze, wine bottles and cigerettes while in a bathtub. "></div>
+<div class="picture"><img src="Images/catandfish.png" alt="a close up of the blue and white cat and fish lithograph, displaying a cat watching 2 fish in a tank ready to attack at any moment."></div>
+</div>
+<div class="buttonrow">
+<div class="buttonrow">
+<a class ="navbtn" href="page7.html">Previous</a>
+<a class="viewbtn" href="index.html#protfolio">View All</a>
+</div>
+</div>
+<footer>
+<div class="contact" id="contact">
+<h2>Contact!</h2>
+<div class="icons"><img src="Images/phoneandemail.png" alt=" off white email and phone icon"></div>
+<p>sydneylucotti@gmail.com</p>
+<p>+1 (224) 245-7817</p>
+</div>
+<div class="copyright"><small>©2025 Lucotti Design. All rights reserved.</small></div>
+</footer>
+<script>
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+</body>
+</html>

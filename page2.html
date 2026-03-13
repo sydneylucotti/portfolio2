@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Kaisei+Opti&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Kaisei+Opti&family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+<title>Lucotti Design</title> 
+<link rel="stylesheet" href="style.css">
+</head>
+<body>  
+<header>
+<div class="logo"> <img src="Images/logocopy.png" alt="small off white SL logo in top left corner"></div>
+<nav>
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn"><img src="Images/dropdownicon.png" alt=""></button>
+  <div id="myDropdown" class="dropdowncontent">
+     <a href="index.html#about">About</a>
+    <a href="index.html#protfolio"> Portfolio</a>
+    <a href="index.html#contact">Contact</a>
+    <a href="Images/Lucotti_Resume.pdf" target="_blank">Resume</a>
+  </div>
+</nav>
+</header>
+<div class="textblock">
+<h2>Starbucks Logo & Branding Zine<br> 5x7 Zine Booklet</h2>
+<p>I created a zine containing my extensive research on the Starbucks logo evolution and their branding success.
+ This project pushed both my research and design skills, especially because I had complete creative freedom.
+ I first developed a detailed digital outline using InDesign along with a document that included all the research and content featured in the zine. After finalizing the layout,
+ I printed and assembled it into a physical zine by cutting, folding, and constructing it by hand. Throughout the process, I followed the Starbucks brand guide while still
+ incorporating my own design choices and compositions, creating a final piece that blended accurate branding with my personal style.</p>
+</div>
+<div class="hero1">  
+<img src="Images/zinemockup.jpg" alt="Green and white zine booklet featuring Starbucks branding and logo evolution along with content about the company on a open page">
+</div>
+<div class="gallery1">
+<div class="picture"><img src="Images/pages1.png" alt="open booklet containing the first 2 pages of content of the zine, a starbucksdesign of a tiger sits on the left page with type on the right "></div>
+<div class="picture"><img src="Images/pages2.png" alt="open booklet containing 2 pages of imagrey of starbucks girft card designs"></div>
+</div>
+<div class="buttonrow">
+    <div class="buttonrow">
+<a class ="navbtn" href="page1.html">Previous</a>
+<a class="viewbtn" href="index.html#protfolio">View All</a>
+<a class ="navbtn" href="page3.html">Next</a>
+</div>
+</div>
+<footer>
+<div class="contact" id="contact">
+<h2>Contact!</h2>
+<div class="icons"><img src="Images/phoneandemail.png" alt="off white email and phone icon"></div>
+<p>sydneylucotti@gmail.com</p>
+<p>+1 (224) 245-7817</p>
+</div>
+<div class="copyright"><small>©2025 Lucotti Design. All rights reserved.</small></div>
+</footer>
+<script>
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+</body>
+</html>

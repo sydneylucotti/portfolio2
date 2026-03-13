@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Kaisei+Opti&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Kaisei+Opti&family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+<title>Lucotti Design</title> 
+<link rel="stylesheet" href="style.css">
+</head>
+<body>  
+<header>
+<div class="logo"> <img src="Images/logocopy.png" alt="small off white SL logo in top left corner"></div>
+<nav>
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn"><img src="Images/dropdownicon.png" alt=""></button>
+  <div id="myDropdown" class="dropdowncontent">
+     <a href="index.html#about">About</a>
+    <a href="index.html#protfolio"> Portfolio</a>
+    <a href="index.html#contact">Contact</a>
+    <a href="Images/Lucotti_Resume.pdf" target="_blank">Resume</a>
+  </div>
+</nav>
+</header>
+<div class="textblock">
+<h2>Zine Of Resistance<br>4x5 Zine</h2>
+<p>I created a zine featuring content from the symbols of resistance I designed in a previous project.
+ I created my symbols on Illustrator, then converted the symbols and research into InDesign outline. Since this was my first time making a zine,
+ it helped me further develop my design skills and gain a better understanding of layout and sequencing. For this assignment,
+ I first composed a digital outline of the zine and then printed a physical mockup. The final piece included information and visual symbols that represented the theme of reusing and recycling old vinyl material to create new vinyl. 
+ I assembled the zine by cutting, folding, and arranging the printed layout into its final form. </p>
+</div>
+<div class="hero1">  
+<img src="Images/recordzine1.png" alt="brght green blue and pink zine booklet featuring symbols of resistance about recycling vinyl records">
+</div>
+<div class="gallery1">
+<div class="picture"><img src="Images/recordzine.png" alt="full unfolded zine front design. design contains bright blue green and pink coloring along with information and illistrations of records"></div>
+<div class="picture"><img src="Images/backofzine.png" alt="full unfolded zine back design. design contains pink background along with illistrations of records making up larger illistrations of fllowers "></div>
+</div>
+<div class="buttonrow">
+    <div class="buttonrow">
+<a class ="navbtn" href="page2.html">Previous</a>
+<a class="viewbtn" href="index.html#protfolio">View All</a>
+<a class ="navbtn" href="page4.html">Next</a>
+</div>
+</div>
+<footer>
+<div class="contact" id="contact">
+<h2>Contact!</h2>
+<div class="icons"><img src="Images/phoneandemail.png" alt="off white email and phone icon"></div>
+<p>sydneylucotti@gmail.com</p>
+<p>+1 (224) 245-7817</p>
+</div>
+<div class="copyright"><small>©2025 Lucotti Design. All rights reserved.</small></div>
+</footer>
+<script>
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+</body>
+</html>

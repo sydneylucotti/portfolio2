@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Kaisei+Opti&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Kaisei+Opti&family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+<title>Lucotti Design</title> 
+<link rel="stylesheet" href="style.css">
+</head>
+<body>  
+<header>
+<div class="logo"> <img src="Images/logocopy.png" alt="small off white SL logo in top left corner"></div>
+<nav>
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn"><img src="Images/dropdownicon.png" alt=""></button>
+  <div id="myDropdown" class="dropdowncontent">
+     <a href="index.html#about">About</a>
+    <a href="index.html#protfolio"> Portfolio</a>
+    <a href="index.html#contact">Contact</a>
+    <a href="Images/Lucotti_Resume.pdf" target="_blank">Resume</a>
+  </div>
+</nav>
+</header>
+<div class="textblock">
+<h2>Sigma Sigma Sigma Merchandise<br>Apparel</h2>
+<p> As the Marketing Manager for Sigma Sigma Sigma in 2024, I created and executed a wide range of designs that represented our 
+chapter’s identity and events. In this role, I collaborated closely with chapter officers, event coordinators, and fellow members to ensure all apparel and promotional materials aligned with the sorority’s 
+vision and were appealing to the sisterhood. I leveraged my graphic design skills to develop custom apparel concepts, refine designs based on feedback, and ensure high-quality final products. 
+I worked directly with apparel vendors such as Fresh Prints and University Tees, communicating design needs, negotiating pricing, and managing order approval processes. By coordinating production timelines and staying aligned with chapter expectations,
+ I ensured each design was both on-brand and highly desired by members.</p>
+</div>
+<div class="hero1">  
+<img src="Images/allmerch.png" alt="">
+</div>
+<div class="gallery1">
+<div class="picture"><img src="Images/winterbidday.png" alt="me along with 2 other friends wearing the winter bid day heart sweatshirts in pink and white with a tri sigma poster as the background of the photo."></div>
+<div class="picture"><img src="Images/bidday.png" alt="a close up of 2 friends modeling the formal white baby tee bid day shirts that are pink with floral designs."></div>
+<div class="picture"><img src="Images/retreat.png" alt=" 2 friends wearing the camping retreat beige tee shirts with a blue and white trees and mountains design, they stand infront of a lake for the photo "></div>
+<div class="picture"><img src="Images/feildday.png" alt="3 friends wearing the field day shirts, a  blue tee shirt with white lettering, they are standing in front of a tri sigma banner"></div>
+</div>
+<div class="buttonrow">
+<div class="buttonrow">
+<a class ="navbtn" href="page6.html">Previous</a>
+<a class="viewbtn" href="index.html#protfolio">View All</a>
+<a class ="navbtn" href="page8.html">Next</a>
+</div>
+</div>
+<footer>
+<div class="contact" id="contact">
+<h2>Contact!</h2>
+<div class="icons"><img src="Images/phoneandemail.png" alt="off white email and phone icon"></div>
+<p>sydneylucotti@gmail.com</p>
+<p>+1 (224) 245-7817</p>
+</div>
+<div class="copyright"><small>©2025 Lucotti Design. All rights reserved.</small></div>
+</footer>
+<script>
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+</body>
+</html>

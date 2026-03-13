@@ -1,0 +1,388 @@
+body {
+    margin: 0;
+    background-color: #f7efe2;
+    color:#f7efe2;
+}
+.instrument-serif-regular {
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.kantumruy-pro-uniquifier {
+  font-family: "Kantumruy Pro", sans-serif;
+  font-style: normal;
+}
+.logo img{
+ height: 50px;
+width: 50px;
+padding-left: 2em;
+}
+h1, h2, h3 {
+text-align: center;
+font-family: "Instrument Serif", serif;
+font-size: 3.5em;
+color: #f7efe2;
+}
+
+p{
+font-family: "Kantumruy Pro", sans-serif;
+font-size: 1.2em;
+text-align: center;
+}
+header {
+    background-color: #7f7d5d;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+}
+.dropbtn {
+background-color: #7f7d5d;
+  padding: 16px;
+  border: none;
+  cursor: pointer;
+}
+.dropbtn img {
+    height: 30px;
+    width: 30px;    
+}
+
+.dropdown {
+  position: relative;
+    display: inline-block;
+}
+
+.dropdowncontent {
+  display: none;
+  position: absolute;
+  background-color:#806d55;
+  z-index: 1;
+  right: 0;
+  padding: 20px;
+    border-radius: 10px;
+}
+
+.dropdowncontent a {
+  color:#f7efe2;
+  text-decoration: none;
+  font-family: instrument serif, serif;
+  font-size: 1.5em;
+}
+.dropdowncontent a:hover {
+  background-color:#dc858b;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.show {
+   display:block;
+}
+.hero {
+background: #e8c5c5;
+text-align: center;
+padding-top: 40px;
+}
+.hero1 {
+text-align: center;
+padding-top: 40px;
+}
+.hero1 img{ 
+align-items: center;
+padding-bottom: 20px;   
+border-radius: 10% 10%;
+width: 700px;
+}
+.hero img {
+width: 300px;
+padding-bottom: 80px;
+} 
+.about {
+background: #dc858b;
+text-align: center;
+padding: 15px;
+border-radius: 900px 900px 0 0 / 100% 100% 0 0;
+margin: 0px auto;
+contain: layout;
+
+}
+.about h2 {
+padding: 10px;
+}
+.about h3 {
+font-size: 2.2em;
+text-decoration: dotted underline;
+
+}   
+.aboutcontent {
+display: grid;
+max-width: 600px;
+margin: auto;
+grid-template-columns: repeat(2, 1fr);
+}
+.about p {
+    text-align: left;
+    padding: 10px;
+}
+.about img {
+width: 250px;
+grid-column: 1 / 2;
+border-radius: 10% ;
+padding: 10px;
+transform: translateY(50px);
+}
+.button{
+background-color:#806d55;
+font-family: "kantumruy pro", sans-serif;
+color: #f7efe2;
+padding:15px;
+grid-column: 1 / 2;
+margin: 70px;
+border-radius: 10px;
+transform: translateY(-150px);
+text-decoration: none;
+
+}
+.button:hover{
+background-color:#e8c5c5;
+cursor: pointer;
+}
+.portfolio h2{
+padding: 20px;
+color: #dc858b;
+text-decoration: dotted underline;
+font-size: 3em;
+}
+.portfoliosection {
+text-align: center;
+padding: 60px 20px;
+}
+.portfoliogrid {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 30px;
+padding: 20px;
+max-width: 900px;
+margin: auto;
+}
+.portfolioitem {
+height: 320px;
+border-radius: 20px;
+}
+.portfolionamegrid {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 0px;
+padding: 80px;
+max-width: 900px;   
+margin: auto;
+}
+.overlay {
+font-size: 2em;
+text-align: center;
+font-family: "Instrument Serif", serif;
+color:#e8c5c5;
+padding-bottom: 20px;
+text-align: center;
+transform:translateY(-170px);
+filter: drop-shadow(2px 4px 6px black);
+filter: opacity(0%);
+}
+.portfolioitem:hover .overlay {
+filter: opacity(100%);  
+} 
+.portfolioitem img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+border-radius: 20px;
+}
+.portfolioitem:hover {
+transform: scale(1.05);
+transition: transform 0.3s;
+cursor: pointer;
+
+} 
+.portfolioitem:hover img {
+filter: brightness(50%);
+
+}  
+   
+.textblock{
+padding: 20px;  
+background-color: #dc858b;
+border-radius: 20px;
+padding: 2em;
+max-width: 1000px;
+margin: 40px auto;
+align-content: center;
+}
+.buttongroup{
+background-color:#806d55;
+font-family: "kantumruy pro", sans-serif;
+color: #f7efe2;
+padding:15px;
+border-radius: 10px;
+text-decoration: none;
+align-content: center;
+flex-direction: row;
+display: flex;
+justify-content: center;
+
+}
+.buttonrow{
+color: #f7efe2;
+padding: 10px 20px;
+margin-top: 20px;
+text-align: center;
+}
+.navbtn{
+background-color: #7f7d5d;
+color: #f7efe2;
+padding: 10px 20px;
+border-radius: 10px;
+text-decoration: none;
+}
+.viewbtn{
+background-color:#a48c6d;
+color: #f7efe2;
+padding: 10px 20px;
+border-radius: 10px;
+text-decoration: none;
+
+}
+.viewbtn:hover{
+background-color:#dc858b;
+cursor: pointer;
+}
+.navbtn:hover{
+background-color:#dc858b;
+cursor: pointer;
+}
+.gallery1 {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 30px;
+padding: 20px;
+max-width: 900px;
+margin: auto;
+}
+.gallery1 img:hover {
+cursor: pointer;  
+ transform: scale(1.2);
+transition: transform 0.3s;
+}
+.picture img {
+width: 100%;
+object-fit: cover;
+border-radius: 30px;
+}
+footer { 
+    margin-top: 70px;
+    background-color: #e8c5c5;
+} 
+.icons img{
+    width: 250px; 
+    margin: auto;
+
+}
+.contact {
+background-color: #dc858b;
+text-align: center;
+border-radius: 0 0 900px 900px / 0 0 100% 100%;
+margin: 0px auto;
+padding: 20px;
+color: #f7efe2;
+}
+footer p {
+font-family: "Kantumruy Pro", sans-serif;
+font-size: 1.5em;
+text-align: center;
+padding: 10px;
+color: #f7efe2;
+
+}
+.contact h2{
+font-family: "Instrument Serif", serif;
+font-size: 3em;
+text-align: center;
+padding: 10px;
+color: #f7efe2;
+}
+.contact p{
+font-family: "Kantumruy Pro", sans-serif;
+font-size: 1.2em;
+text-align: center;
+padding: 10px;
+color: #f7efe2;
+}
+.copyright {
+color:#7f7d5d;
+text-align: center;
+padding: 10px;
+}
+.copyright p{
+    text-decoration: none;
+    font-family: "kantumruy pro", sans-serif;
+    font-size: 1em;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+   
+ .portfoliogrid{
+grid-template-columns:repeat(1,1fr);
+ max-width: 500px;
+}
+.hero1 img{ 
+width: 500px;
+}
+.gallery1{
+    grid-template-columns:repeat(1,1fr);
+    max-width: 500px;
+}
+p{
+    font-size: 1.4em;
+}
+.button{
+ transform: translateY(-300px);
+}
+.textblock{
+    padding: 10px;  
+    background-color: #dc858b;
+    border-radius: 20px;
+    padding: 2em;
+    max-width: 90%;
+    margin: 40px auto;
+    align-content: center;
+}
+}
+
+@media screen and (max-width: 767px) {
+
+    .portfoliogrid{
+        grid-template-columns:repeat(1,1fr);
+        max-width: 400px;
+    }
+ .hero1 img{ 
+width: 400px;
+}
+.gallery1{
+    grid-template-columns:repeat(1,1fr);
+    max-width: 400px;
+}
+.aboutcontent{
+    grid-template-columns:repeat(1,1fr);
+    max-width: 300px;
+    padding: 20px;
+    gap: 80px;
+}
+.textblock{
+    padding: 10px;  
+    background-color: #dc858b;
+    border-radius: 20px;
+    padding: 1em;
+    max-width: 90%;
+    margin: 40px auto;
+    align-content: center;
+}
+}
