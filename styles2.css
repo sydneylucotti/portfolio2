@@ -1,0 +1,205 @@
+body {
+background-color: antiquewhite;
+margin: 0;
+color: black;
+}
+header{
+   display: flex;
+   flex-direction:row-reverse;
+  justify-content: space-between;  
+  align-items: center;            
+  background-color: rgb(31, 43, 65);
+  padding: 0 60px;
+  height: 10px;
+  height: auto;
+  color: black;
+  
+}
+header h1{
+   margin:0;
+    padding: 0px;  
+    text-align:center; 
+    color:white
+}
+header nav{
+    align-self:auto;
+    margin-top: 10px;
+    font-size: 2em;
+    color:white;
+    font-family:"Italiana", sans-serif; ;
+  
+   
+}
+header nav ul{
+    display: flex;
+    justify-content:space-between;
+    list-style-type:none;
+    padding:0;
+    margin:0px;
+    color: black;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+color: rgb(99, 136, 104);
+}
+header h1 img{
+  vertical-align: middle;
+  height: 40px;  
+  height: 100px;
+  width: 100px;
+  color: black;
+}
+.hero-image{
+  height: auto;
+ width:auto;
+
+}
+main h1{
+ color: white;
+ position: absolute;
+ top: 40%;
+ left:50%; 
+ transform: translate(-50%, -70%);
+ font-size:10em;
+}
+
+h1 {
+  font-family: "Inspiration", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-size: 5em;
+   color: white;
+}
+ p{
+  font-family: "Gentium Plus", serif;
+  font-weight: 400;
+  font-style: normal;
+  align-self: center;
+  text-align: center;
+  color: black;
+}
+h2{ 
+    font-family: "Italiana", sans-serif;
+  font-style: normal; 
+  text-align: center;
+  font-size: 2em;
+  color: black;
+}
+menu h2{
+    font-size: 4em;
+    color: white;
+}
+h3{
+     font-family: "Italiana", sans-serif;
+  font-weight: 400;
+  font-style: normal; 
+  text-align: center;
+  font-size: 2em;
+  text-decoration: underline;
+  color: black;
+}
+
+  
+.home{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 10px;
+    padding: 60px;
+}
+.aboutus{
+    grid-column: 1/span 8;
+    padding: 0 5% 2em 0;
+}
+#fetureddd {
+    grid-column: 9/span 4;  
+    padding: 0 5% 2em 0;
+}
+.fetured {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 10px
+}
+
+.fetured img{
+  border-radius: 50%;
+  max-height: 170px;
+  max-width: 170px;
+  width: 200px;
+  height: 200px;
+
+}
+.button{
+   text-align: center;
+   align-self: center; 
+   display: flex;
+   justify-content: center;
+}
+button{
+    background-color: rgb(31, 43, 65);
+    color: white;
+    padding: 25px;
+    font-family: "Italiana", sans-serif;
+    margin:  80px auto; 
+    font-size: 1.5em;
+    display: block;
+    align-items: center;
+   justify-content: center;
+}
+button:hover{
+    text-decoration: underline;
+    color: rgb(99, 136, 104);
+}
+ .contactandbook{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 10px;
+}
+.contact{
+    grid-column: 1/span 8;
+}
+.hours{
+    grid-column: 9/span 4;  
+    padding: 0 5% 2em 0;
+}
+.hero-image2{
+    display:flex;
+    flex-direction:row;
+    max-width: 50%;
+    max-height: 100%;
+   object-fit: contain;
+}
+
+img {
+    max-width: 100%;
+}
+.drinks, .drinks2, .drinks3, .drinks4, .drinks5, .drinks6, .desserts, .desserts2{
+     display:grid;
+    grid-template-columns: repeat(12, 1fr);
+    text-align: center;
+}
+.specialty, .cocktails, .sippabledessert, .Dessertwine, .AmaroDigestivo,.specialtydesserts, .Cupcakes, .beers{
+    grid-column: 1/span 6; 
+    text-align: center;
+}
+ .Redwines, .whitewine,.rose,.Nonalcoholic, .bubbles, .Cakes{
+    grid-column: 7/span 6; 
+      text-align: center;
+}
+
+footer{
+    text-align: center;
+    border-top: solid thin ;
+    background-color:rgb(31, 43, 65);
+    padding: 1.5em;
+    color:white;
+  
+}
+
